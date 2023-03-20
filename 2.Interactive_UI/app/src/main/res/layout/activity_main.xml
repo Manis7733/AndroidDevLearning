@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:id="@+id/LinearLayout">
+
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dark"
+        android:fontFamily="monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:fontFamily="monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+</LinearLayout>
